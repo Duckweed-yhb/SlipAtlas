@@ -2,7 +2,9 @@
 
 Turns scattered WeChat articles, videos and long-form pieces into searchable slips.
 
-The **input** piece of Frost &middot; Armil &middot; Slip: FrostSword executes, ArmilGrid aims, SlipAtlas just reads inward.
+A local-first reading inbox. Give it a link and it pulls the body, trims it into a Markdown file with fixed fields, and indexes it locally — so "where exactly did I read that sentence" becomes answerable.
+
+No online service involved; the data stays on your own disk.
 
 中文主文档见 [README.md](README.md)。
 
@@ -16,7 +18,7 @@ The **input** piece of Frost &middot; Armil &middot; Slip: FrostSword executes, 
 
 ## What it does not do
 
-- No career advice (that is ArmilGrid's job)
+- No career advice, and no decisions about what you should read next
 - No conclusions on your behalf, only what the text says and whether it is worth continuing
 - No invented bodies when a fetch fails
 
