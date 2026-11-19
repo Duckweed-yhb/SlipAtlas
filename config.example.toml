@@ -1,0 +1,9 @@
+# 复制成 config.toml 使用；config.toml 不进版本库。
+
+[vault]
+# 阅读库根目录。留空则用默认 E:/future/yhb/07-阅读与藏书/Lifetime-Archive
+path = ""
+
+[intake]
+# 公众号抓取用的 Cookie，从浏览器复制整条，只在本机用
+wechat_cookie = ""
